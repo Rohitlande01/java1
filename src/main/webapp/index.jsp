@@ -1030,7 +1030,7 @@
     // Initialize icons
     lucide.createIcons();
 
-    // Mobile menu
+   
     const menuBtn = document.getElementById("menuBtn");
     const mobileMenu = document.getElementById("mobileMenu");
 
@@ -1038,14 +1038,12 @@
       mobileMenu.classList.toggle("hidden");
     });
 
-    // Close mobile menu after clicking a link
     document.querySelectorAll(".mobile-link").forEach((link) => {
       link.addEventListener("click", () => {
         mobileMenu.classList.add("hidden");
       });
     });
 
-    // Contact form demo
     const contactForm = document.getElementById("contactForm");
     const formMessage = document.getElementById("formMessage");
 
